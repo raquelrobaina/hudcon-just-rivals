@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #0f0f14, #1a1a22);
+  color: #eaeaea;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 420px;
+  max-width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  margin-top: 5px;
+  font-weight: normal;
+  color: #aaa;
+}
+
+button {
+  margin: 20px 0;
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #8b0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #b00000;
+}
+
+.meter {
+  width: 100%;
+  height: 12px;
+  background: #333;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#meterFill {
+  height: 100%;
+  width: 0%;
+  background: crimson;
+  transition: width 0.3s;
+}
+
+#denialText {
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 5px;
+}
+
+#evidenceSection {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.evidence {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 3px solid crimson;
+}
+
+.evidence img {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.final {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffb3b3;
+}
+
+.evidence img {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
