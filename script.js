@@ -3,23 +3,23 @@ let clicks = 0;
 const evidences = [
   {
     text: "Eles brigam o tempo todo, mas confiam a vida um no outro em combate.",
-    img: "assets/img/hudcon_1.gif"
+    img: "./assets/img/hudcon_1.gif"
   },
   {
     text: "Ilya ficou visivelmente alterado quando Shane se machucou. Isso é normal entre rivais.",
-    img: "assets/img/hudcon_2.gif"
+    img: "./assets/img/hudcon_2.gif"
   },
   {
     text: "Contato visual prolongado. Silêncio estranho. Nenhum dos dois se afasta.",
-    img: "assets/img/hudcon_3.gif"
+    img: "./assets/img/hudcon_3.gif"
   },
   {
     text: "Eles funcionam melhor juntos do que separados. Coincidência, claro.",
-    img: "assets/img/placeholder.gif"
+    img: "./assets/img/placeholder.gif"
   },
   {
     text: "Isso não é ódio. Isso é tensão emocional mal resolvida.",
-    img: "assets/img/hudcon_5.gif"
+    img: "./assets/img/hudcon_5.gif"
   }
 ];
 
@@ -84,3 +84,4 @@ denyBtn.addEventListener("click", () => {
     denyBtn.style.display = "none";
   }
 });
+
